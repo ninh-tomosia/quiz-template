@@ -1,0 +1,7 @@
+.content{
+    padding: 10px 20px;
+}
+.item{
+    flex: 1 0 25%;
+    border: .5 solid #DDD;
+}
