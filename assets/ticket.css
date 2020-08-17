@@ -1,0 +1,63 @@
+body{
+    background: #DDD;
+}
+.ticket-group{
+    background: rgb(247, 244, 220);
+    width: 800px;
+    margin: 80px auto;
+    position: relative;
+    padding: 20px 50px;
+}
+.ticket-group h2{
+    text-align: center;
+    padding: 20px 0px;
+}
+.ticket-question{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ticket-question .question{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin: 0;
+    display: flex;
+}
+.ticket-question .question label{
+    margin-right: 10px;
+    line-height: 20px;
+}
+.ticket-question .question span{
+    line-height: 20px;
+}
+.ticket-answer {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.ticket-answer-item{
+    width: 100%;
+    padding: 2px 0px;
+    display: flex;
+    cursor: pointer;
+}
+.ticket-answer-item input{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    flex-direction: column;
+    align-self: center;
+    flex: 1 0 5%;
+}
+.ticket-answer-item span {
+    flex: 1 0 95%;
+}
+.ticket-answer-item input:hover{
+    cursor: pointer;
+}
+.pagination-ticket{
+    display: flex;
+    justify-content: center;
+}
+.page-item {
+    margin: 0 100px;
+}
